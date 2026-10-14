@@ -1,0 +1,28 @@
+{
+    "best_algorithm": "SVM RBF",
+    "selection_metric": "mean_cv_f1",
+    "cv_scoring": "f1",
+    "cv_folds": 5,
+    "best_cv_f1": 0.8158660202333712,
+    "best_parameters": {
+        "model__C": 1,
+        "model__class_weight": null,
+        "model__gamma": 0.01
+    },
+    "test_metrics": {
+        "test_accuracy": 0.7238095238095238,
+        "test_precision": 0.7329545454545454,
+        "test_recall": 0.9214285714285714,
+        "test_f1": 0.8164556962025317
+    },
+    "dataset_file": "C05_online_purchase_classification.xlsx",
+    "dataset_sheet": "Raw_Data",
+    "test_size": 0.2,
+    "random_state": 42,
+    "scikit_learn_version": "1.9.0",
+    "class_distribution_after_cleaning": {
+        "0": 352,
+        "1": 698
+    },
+    "artifact_file": "best_model.joblib"
+}
